@@ -1,1 +1,32 @@
 #gitignore file
+# Virtual Environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files (optional - keep only if large)
+# *.pkl
+
+# Data files (optional - if large datasets)
+# data/
+
+# VS Code settings
+.vscode/
